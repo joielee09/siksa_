@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-siksa-dev-20109-authRole",
+      "UnauthRoleArn": "arn:aws:iam::265480965462:role/amplify-siksa-dev-20109-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::265480965462:role/amplify-siksa-dev-20109-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-siksa-dev-20109-deployment",
+      "UnauthRoleName": "amplify-siksa-dev-20109-unauthRole",
+      "StackName": "amplify-siksa-dev-20109",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:265480965462:stack/amplify-siksa-dev-20109/cf809420-38ad-11eb-a16e-06b934594072",
+      "AmplifyAppId": "d3l55icj75effc"
+    },
+    "categories": {
+      "auth": {
+        "siksa3896c998": {}
+      }
+    }
+  }
+}
