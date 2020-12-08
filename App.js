@@ -1,22 +1,30 @@
-import { View, Text } from 'native-base';
+import { StatusBar } from 'expo-status-bar';
 import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
 import styled from 'styled-components/native';
 
 const Image = styled.Image`
-    width: 200px;
-    height: 200px;
-    justify-content: center;
+  width: 200px;
+  height: 200px;
 `;
 
-const App = () => {
-    return(
-        <View>
-            <Image 
-                source={{ uri:'https://thewellesleynews.com/wp-content/uploads/2020/02/Courtesy-of-Looper.jpg' }}
-            />
-            <Text>This is overwrite of try out</Text>
-        </View>
-    );
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Image 
+        source={{ uri:'https://occ-0-1068-92.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQ87hjjLmqLIxNySIpqte-duXaDBha3_iBdaJtZ-zfIf_yuZQu338DN1Fdg_5kENOiP5XqqgYDPZcBrMlhM5b4KL9Ggm3gsr9MByixIVkkhjhwlO.jpg?r=978' }}
+      />
+      <Text>Open up App.js to start working on your app!</Text>
+      <StatusBar style="auto" />
+    </View>
+  );
 }
 
-export default App;
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
